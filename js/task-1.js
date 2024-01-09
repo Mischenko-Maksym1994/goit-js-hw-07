@@ -1,8 +1,7 @@
 
 const category = document.querySelector("#categories");
-// console.log(category);
+
 const arrayItem = [...category.children];
-// console.log(arrayItem);
 
 // const numberOfCategory = category.children.length;
 // console.log(`Number of category : ${numberOfCategory}`);
@@ -27,7 +26,10 @@ function titleCategory(array) {
         // console.log(lastChild);
         console.log(`Category: ${firstTitle.textContent}`);
         console.log(`Elements: ${lengthLastChild}`); 
+
+        lastChild.
      }
 };
 
 console.log(titleCategory(arrayItem));
+
