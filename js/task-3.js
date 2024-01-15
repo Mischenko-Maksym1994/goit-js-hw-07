@@ -9,7 +9,7 @@ nameInput.addEventListener("input", (event) => {nameOutput.textContent = event.c
 });
 
 
-const classbox = document.querySelector("body div");
+const classbox = document.querySelector("body");
 classbox.classList.add("box");
 
 const textStyle = document.querySelector("body h1");
