@@ -198,7 +198,6 @@ ul {
 
 .change-color {
   padding: 8px 16px;
-  margin-top: 0 auto;
 
   border: 0px;
   border-radius: 8px;
@@ -207,4 +206,51 @@ ul {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.64px;
+}
+
+/****************task-6******************/
+
+#controls, #boxes {
+  padding: 32px;
+  margin-bottom: 16px;
+  color: #FFFFFF;
+
+  border-radius: 8px;
+  background: #F6F6FE;
+
+  display: flex;
+  justify-content: center;
+}
+
+#controls button, input {
+  padding: 8px 16px;
+  border: 0px;
+  border-radius: 8px;
+}
+
+#controls input {
+  color: #2E2F42;
+  border: 1px solid #808080;
+}
+
+#controls button[data-create] {
+  margin-left: 16px;
+  margin-right: 16px;
+  background-color: #4E75FF;
+}
+
+#controls button[data-destroy] {
+  background-color: #FF4E4E;
+}
+
+#boxes {
+  margin: 0px;
+}
+
+#boxes div {
+  margin-right: 16px;
+}
+
+#boxes div:last-child {
+  margin-right: 0px;
 }
