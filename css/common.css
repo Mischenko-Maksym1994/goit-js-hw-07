@@ -84,7 +84,7 @@ ul {
   flex-basis: calc(100% / 3 - 96px);
 }
 
-.item-image {
+.gallery-img {
   width: 360px;
   height: 300px;
   box-sizing: border-box;

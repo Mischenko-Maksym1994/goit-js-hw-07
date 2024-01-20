@@ -1,13 +1,12 @@
 
 const nameInput = document.querySelector("#name-input");
-console.log(nameInput);
 
 const nameOutput = document.querySelector("#name-output");
-console.log(nameOutput);
 
-nameInput.addEventListener("input", (event) => {nameOutput.textContent = event.currentTarget.value;
+nameInput.addEventListener("input", (event) => {
+  const trimmedValue = event.currentTarget.value.trim();
+  nameOutput.textContent = trimmedValue === '' ? 'Anonymous' : trimmedValue;
 });
-
 
 const classbox = document.querySelector("body");
 classbox.classList.add("box");
