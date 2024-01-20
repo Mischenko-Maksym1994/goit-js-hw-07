@@ -18,10 +18,12 @@ btnCreate.addEventListener("click", () => {
 
 btnDestroy.addEventListener("click", destroyBoxes);
 
+function destroyBoxes() {
+  divBoxes.innerHTML = "";
+}
 
 function createBoxes(amount) {
-  // destroyBoxes();
-
+  destroyBoxes();
   let width = 30;
   let height = 30;
   const step = 10;
@@ -40,8 +42,4 @@ function createBoxes(amount) {
   
   divBoxes.append(...arrayElement);
   console.log(`create ${amount} elements`);
-}
-
-function destroyBoxes() {
-  divBoxes.innerHTML = "";
 }
